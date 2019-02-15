@@ -2,16 +2,15 @@
 
 ### Overview
 
-Creating a classification model to predict which subreddit a post belongs to.
-Used Honda and Toyota subbreddit.
+Created a classification model to predict which subreddit a post belongs to, using Honda and Toyota subbreddit.
 
 Work is devided in 3 noteboos:
 
-1. DataScraping.ipynb
+1. [DataScraping.ipynb](https://github.com/berkurka/Reddit-Classifier/blob/master/Notebooks/01%20DataScraping.ipynb)
      Scraping data from sub reddit Api convert into a pandas data frame and creates csv files.
-2. EDA.ipynb
+2. [EDA.ipynb](https://github.com/berkurka/Reddit-Classifier/blob/master/Notebooks/02%20EDA.ipynb)
      Describing data, generating histogram, scatter and correlation heatmap plots.
-3. Feature_eng_and_Model.ipynb
+3. [Feature_eng_and_Model.ipynb](https://github.com/berkurka/Reddit-Classifier/blob/master/Notebooks/03%20Model.ipynb)
      Creating dummies, engineering new features, scale data, spliting data in train and test data frames.
      Fitting data in model, scoring model, and ploting predictions and errors.
 ### Methods
